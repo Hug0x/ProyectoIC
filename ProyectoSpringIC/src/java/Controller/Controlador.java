@@ -67,6 +67,12 @@ public class Controlador {
         this.jdbcTemplate.update(sql, hab.getCodigo(), hab.getTipo(), hab.getPrecio());
         return new ModelAndView("redirect:/index.htm");      
     }
-    
+    @RequestMapping("delete.htm")
+    public ModelAndView Delete(HttpServletRequest request){
+        cod=Integer.parseInt(request.getParameter("cod"));
+        String sql = "delete from `mingesoIC`.`Habitacion` where idHabitacion="+cod;
+        this.jdbcTemplate.update(sql);
+        return new ModelAndView("redirect:/index.htm");
+    }
     
 }

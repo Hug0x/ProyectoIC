@@ -33,7 +33,7 @@
                                 <td>${dato.COSTO_HABITACION}</td>
                                 <td>
                                     <a href="editar.htm?cod=${dato.idHabitacion}" class="btn btn-warning">Editar</a>
-                                    <a class="btn btn-primary">Eliminar</a>
+                                    <a href="delete.htm?cod=${dato.idHabitacion}" class="btn btn-primary">Eliminar</a>
                                 </td>
                             </tr>
                             </c:forEach>
