@@ -14,7 +14,7 @@
         <div class="container mt-4">
             <div class="card border-info">
                 <div class="card-header bg-info text-white">
-                    <a class="btn btn-success" href="agregar.htm">Habitacion</a>
+                    <a class="btn btn-success" href="agregar.htm">Habitaciones disponibles</a>
                 </div> 
                 <div class="card-body">
                     <table class="table table-hover">

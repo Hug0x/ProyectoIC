@@ -26,7 +26,7 @@
                         <label>Precio Habitacion</label>
                         <input type="int" name="precio" class="form-control">
                         <input type="submit" value="Agregar" class="btn btn-success">
-                        <a href="index.htm" >Volver</a>
+                        <a href="index.htm" >  Volver</a>
                         
                     </form>
                 </div>

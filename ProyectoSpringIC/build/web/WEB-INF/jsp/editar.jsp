@@ -15,7 +15,7 @@
         <div class="container mt-4 col-lg-4">
             <div class="card border-info">
                 <div class="card-header bg-info">
-                    <h4>Editar Habitacion ${lista[0].idHabitacion}</h4>
+                    <h4>Modificar Habitacion ID: ${lista[0].idHabitacion}</h4>
                 </div>
                 <div class="card-body">
                     <form method="POST">
@@ -26,7 +26,7 @@
                         <label>Precio Habitacion</label>
                         <input type="int" name="precio" class="form-control" value="${lista[0].COSTO_HABITACION}">
                         <input type="submit" value="Actualizar" class="btn btn-success">
-                        <a href="index.htm" >Volver</a>
+                        <a href="index.htm" >  Volver</a>
                         
                     </form>
                 </div>
