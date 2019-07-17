@@ -14,9 +14,9 @@ public class Habitacion {
     int id;
     String codigo;
     String tipo;
-    float precio;
+    int precio;
 
-    public Habitacion(int id, String codigo, String tipo, float precio) {
+    public Habitacion(int id, String codigo, String tipo, int precio) {
         this.id = id;
         this.codigo = codigo;
         this.tipo = tipo;
@@ -50,11 +50,11 @@ public class Habitacion {
         this.tipo = tipo;
     }
 
-    public float getPrecio() {
+    public int getPrecio() {
         return precio;
     }
 
-    public void setPrecio(float precio) {
+    public void setPrecio(int precio) {
         this.precio = precio;
     }
     
