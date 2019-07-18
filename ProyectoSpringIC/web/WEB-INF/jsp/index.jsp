@@ -20,7 +20,7 @@
                     <table class="table table-hover">
                         <thead>
                             <th>ID</th>
-                            <th>Codigo Habitacion</th>
+                            <th>Cod.Hab</th>
                             <th>Tipo de Habitacion</th>
                             <th>Precio</th>
                         </thead>
